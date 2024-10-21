@@ -57,4 +57,38 @@ ul
 .box
 {
     width: 50%;
+    padding: 0px;
+}
+
+.box-small-l
+{
+    width: 40%;
+    padding-left: 100px;
+}
+
+.box-small-r
+{
+    width: 40%;
+    padding-right: 100px;
+}
+
+.box-large
+{
+    width: 60%;
+    padding: 0px;
+}
+
+a:link
+{
+    color: #a6bddb;
+}
+
+a:visited
+{
+    color: #a6bddb;
+}
+
+.contact
+{
+    padding-left: 350px;
 }
