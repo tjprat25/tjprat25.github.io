@@ -8,7 +8,7 @@
         <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Nunito">
     </head>
     <body>
-        <div class = "container">
+        <div class = "container" id = "header-top">
             <div class = "box-large">
                 <h1>
                     Hello, I'm Tim Pratt
@@ -21,13 +21,27 @@
                 <img src = "pfp.jpg" alt = "My PFP" width = "250">
             </div>
         </div>
-        <h2 class = "fade-element">
+        <div class = "container">
+            <div class = "box-mini">
+                <button type = "button" id = "buttonA">About Me</button>
+            </div>
+            <div class = "box-mini">
+                <button type = "button" id = "buttonE">Experience</button>
+            </div>
+            <div class = "box-mini">
+                <button type = "button" id = "buttonP">Projects</button>
+            </div>
+            <div class = "box-mini">
+                <button type = "button" id = "buttonC">Contact</button>
+            </div>
+        </div>
+        <h2 class = "fade-element" id = "headerA">
             About Me
         </h2>
         <p class = "fade-element">
             I am an undergraduate student studying Statistics and Computer Science at Colby College. I am passionate about data science, and I love to learn. I'm hoping to gain some working experience in the data science field after I graduate.
         </p>
-        <h2 class = "fade-element">
+        <h2 class = "fade-element" id = "headerE">
             Experience
         </h2>
         <h3 class = "fade-element">
@@ -100,7 +114,7 @@
         <p class = "fade-element">
             For two summers I interned for the SOLIDWORKS Partner Program in Waltham, MA. I gained experience working in a corporate, team-based environment. I was responsible for quality assurance of our team's databases, and organization of standard operating files/resources, which helped improve the team's quality-of-life.
         </p>
-        <h2 class = "fade-element">
+        <h2 class = "fade-element" id = "headerP">
             Projects
         </h2>
         <h3 class = "fade-element">
@@ -167,7 +181,7 @@
                 </p>
             </div>
         </div>
-        <h2 class = "fade-element">
+        <h2 class = "fade-element" id = "headerC">
             Contact
         </h2>
         <p class = "fade-element">
@@ -185,6 +199,10 @@
                     LinkedIn: <a href="https://www.linkedin.com/in/tjpratt16/">https://www.linkedin.com/in/tjpratt16/</a>
                 </li>
             </ul>
+        </div>
+        <div>
+            <button type = "button" id = "button-top">Back to Top</button>
+        </div>
         <script src = "script.js"></script>
     </body>
 </html>
